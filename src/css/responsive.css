@@ -1,0 +1,38 @@
+@media (max-width: 767px) {
+    .header-nav{
+        column-gap: 50px;
+        flex-wrap: wrap;
+        justify-content: right;
+    }
+    .header-left{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .header-menu{
+        justify-content: space-around;
+    }
+    .header-btn{
+        padding: 10px 20px;
+    }
+    .home-bgPart{
+        width: 70px;
+
+    }
+    .home-bgPart img:nth-child(2){
+        left: unset;
+        right: 30px;
+    }
+}
+@media (max-width: 425px) {
+    .home-title{
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .home-link{
+        margin: 0 auto;
+        width: fit-content;
+        display: block;
+    }
+
+}
